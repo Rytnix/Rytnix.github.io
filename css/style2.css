@@ -1,0 +1,62 @@
+.resumehead{
+        width: 100%;
+        height: 100vh;
+        background-image: url('respic.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        
+     }
+.portfolio{
+        width: 100%;
+        height: 100vh;
+        background-image: url('back.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        
+     }
+ .header2{
+    box-sizing: border-box;
+    margin-top: 100px;
+    padding: 0;
+    
+
+    width: 100%;
+    height: 100vh;
+    background-image: url('back.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.header2 section p{
+    text-align: center; 
+} 
+
+.section2{ 
+
+    padding: 4rem 0;
+
+}
+.section2 .about{
+    background: rgba(170, 168, 168,0.4  );
+}
+.sec2-head{
+    font-family: "Raileway-bold";
+    text-align: center;
+    position: relative;
+    margin-bottom: 4rem;
+
+}
+
+.sec2-head:after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-image: url("after.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    margin-top: -5px;
+
+
+} 

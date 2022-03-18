@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title class="title">Resume</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+      <header>
+    <section class="header">
+      <nav>
+        <a href="newindex.html"
+          ><img class="logo" src="images/new.png" alt="Name"
+        /></a>
+
+        <div class="nav-link" id="navLinks">
+            <i class="fa fa-times" onclick="hidemenu()" ></i>
+           <ul>
+            <li><a href="index.html" class="line">HOME</a></li>
+            <li><a href="resume.html" class="line">RESUME</a></li>
+            <li><a href="portfolio.html" class="line">PORTFOLIO</a></li>
+          <span class="contact"><li><a href="Contact.html" class="line">CONTACT</a></li><span>
+          </ul>
+        </div>
+        <div>
+       <a href="#" class="cta"><button>Contact</button></a>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+
+    </section>
+
+
+</header>
+
+
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showmenu(){
+        navLinks.style.left="0";
+    }
+    function hidemenu(){
+        navLinks.style.left="-200px";
+    }
+
+</script>
+  </body>
+</html>
