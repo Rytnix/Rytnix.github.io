@@ -12,7 +12,7 @@
 header{
     width: 100%;
     height: 100vh;
-    background-image: url('../images/respic.png');
+    /* background-image: url('../images/respic.png'); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
@@ -150,15 +150,15 @@ nav .fa{
         z-index: 2;
         transition: 1s;
         
-    }  
+         }  
     
-nav .fa{
+        nav .fa{
         display: block;
         color: black;
         margin: 10px;
         font-size: 22px;
         cursor: pointer;
-    }
+        }
     .nav-link ul{
         padding: 30px;
     } 
@@ -186,6 +186,7 @@ nav .fa{
 
 }
 .skills h1{
+    font-family: 'Inconsolata', sans-serif;
     font-size: 36px;
     font-weight: 600;
 
@@ -218,7 +219,115 @@ nav .fa{
 @media(max-width: 700px) {
     .row{
         flex-direction: column;
+        
     }
+    
+
     
 }
 
+
+/* footer */
+
+.about{
+    width: 100;
+    text-align: center;
+    padding: 30px;
+    
+
+}
+
+.am{
+    font-size: 36px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-family: 'Inconsolata', sans-serif;
+}
+.about .amp{
+
+        font-family: 'Inconsolata', sans-serif;
+        color: #777;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        padding: 10px;
+        
+}
+.footer-icons .fa-brands{
+    color: black;
+    margin: 0 10px;
+    cursor: pointer;
+    padding: 18px 0;
+
+}
+
+@media(max-width: 700px) {
+
+    .about .amp{
+        
+    }
+}
+
+
+
+
+/* Resume file */
+
+
+.resume{
+
+    
+        flex: 1;
+        text-align: center;
+       
+    
+}
+.resume ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 8px 190px;
+     }
+
+.res{
+     font: 900 32px/40px;
+        color: black;
+        font-size: 44px;
+        font-weight: 300px;
+           
+    
+}
+
+
+.pdf{
+    
+text-align: center;
+
+}
+.error{
+    display: none;
+}
+
+@media(max-width: 700px){
+    .pdf{
+        display: none;
+    }
+    .dbtn{
+        display: none;
+    }
+    .resume ul li{
+        list-style: none;
+        padding: 8px 110px;
+     }
+     
+     .error{
+         display: block;
+         text-align: center;
+         font-family: 'Inconsolata', sans-serif;
+        color: #777;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+     }
+
+}
