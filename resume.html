@@ -9,6 +9,7 @@
         type = "image/x-icon">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="index.js"></script>
   </head>
   <body>
       <header>
@@ -46,7 +47,25 @@
     </div>
 
   <div class="pdf">
-    <iframe class="pdfframe" src="Resume/UtkarshYadavResume.pdf" width="60%" height="1000"></iframe>
+     <!-- <iframe class="pdfframe" src="https://drive.google.com/file/d/1c_l5ZDERppUvh-uPaD6tCkLDOrhxNt90/view?usp=sharing"
+      width="60%" height="1000"></iframe> -->
+      <!-- <object src="https://drive.google.com/file/d/1c_l5ZDERppUvh-uPaD6tCkLDOrhxNt90/view?usp=sharing" type="application/pdf" title="SamplePdf" width="60%" height="1000">
+        <a href="Resume/UtkarshYadavResume.pdf"></a> 
+    </object> -->
+    <!-- <div id="adobe-dc-view" style="height: 476px; width: 600px; border: 1px solid #dadada;"></div>
+    <script type="text/javascript" src="https://documentcloud.adobe.com/view-sdk/main.js"></script> -->
+    <div id="adobe-dc-view" style="height: 360px; width: 500px;"></div>
+<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+<script type="text/javascript">
+	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
+		var adobeDCView = new AdobeDC.View({clientId: "c9c421eec01a4d47984e02d94abfa356", divId: "adobe-dc-view"});
+		adobeDCView.previewFile({
+			content:{promise: "<FILE_BLOB_PROMISE>"},
+			metaData:{fileName: "<FILE_NAME>"}
+		}, {embedMode: "SIZED_CONTAINER"});
+	});
+</script>
+   
   </div>
   
 
