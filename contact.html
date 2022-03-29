@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title class="title">Resume</title>
+    <link rel = "icon" href="images/personality.png" 
+        type = "image/x-icon">
+    <link rel="stylesheet" href="css/style.css" />
+    
+     <link rel="stylesheet" href="css/style3.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+      <header>
+    <section class="header">
+      <nav>
+        <a href="index.html"
+          ><img class="logo" src="images/new.png" alt="Name"
+        /></a>
+
+        <div class="nav-link" id="navLinks">
+            <i class="fa fa-times" onclick="hidemenu()" ></i>
+           <ul>
+            <li><a href="index.html" class="line">HOME</a></li>
+            <li><a href="resume.html" class="line">RESUME</a></li>
+            <li><a href="portfolio.html" class="line">PORTFOLIO</a></li>
+          <span class="contact"><li><a href="Contact.html" class="line">CONTACT</a></li><span>
+          </ul>
+        </div>
+        <div>
+       <a href="contact.html" class="cta"><button>Contact</button></a>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <section class="about">
+<div class="footer-icons">
+      <a href="https://www.facebook.com/rytnix001/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://twitter.com/_utkarsh_y" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com/_.utkarsh._y/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://github.com/Rytnix" target="_blank"><i class="fa-brands fa-github"></i></a>
+     </div>
+      </section>
+      <div class="container">
+
+
+
+         <img src="/images/contact.png" alt="">
+       
+
+      </div>
+
+ 
+  
+
+     
+    </section>
+      </header>
+
+
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showmenu(){
+        navLinks.style.left="0";
+    }
+    function hidemenu(){
+        navLinks.style.left="-200px";
+    }
+
+</script>   
+  </body>
+</html>
+

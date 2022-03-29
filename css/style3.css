@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.container img{
+    max-width: 40%;
+    height: auto;
+    border-radius: 20%;
+    margin-top: -10px;
+}
+
+
+
+@media(max-width: 700px){
+        .container{
+        margin-top: -10px;
+        }
+        .gita{
+            font-size: 8px;
+        }
+        .container img{
+            max-width: 80%;
+            border-radius: 10%;
+            height: auto;
+        }
+
+    
+
+
+    } 
