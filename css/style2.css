@@ -1,62 +1,48 @@
-.resumehead{
-        width: 100%;
-        height: 100vh;
-        background-image: url('respic.png');
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        
-     }
-.portfolio{
-        width: 100%;
-        height: 100vh;
-        background-image: url('back.png');
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        
-     }
- .header2{
+.skills1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.skills1 h1{
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+
+}
+.skills1 p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    
+}
+.row1
+{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.skill-col1
+{
+    flex-basis: 31%;
+    background: rgba(163, 201, 184, 0.616);;
+    /* background: #fde6e6; */
+    border-radius: 19px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
     box-sizing: border-box;
-    margin-top: 100px;
-    padding: 0;
+} 
+
+
+@media(max-width: 700px) {
+    .row1{
+        flex-direction: column;
+        
+    }
     
 
-    width: 100%;
-    height: 100vh;
-    background-image: url('back.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    
 }
-
-.header2 section p{
-    text-align: center; 
-} 
-
-.section2{ 
-
-    padding: 4rem 0;
-
-}
-.section2 .about{
-    background: rgba(170, 168, 168,0.4  );
-}
-.sec2-head{
-    font-family: "Raileway-bold";
-    text-align: center;
-    position: relative;
-    margin-bottom: 4rem;
-
-}
-
-.sec2-head:after{
-    content: '';
-    display: block;
-    width: 100%;
-    height: 30px;
-    background-image: url("after.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    position: absolute;
-    margin-top: -5px;
-
-
-} 
