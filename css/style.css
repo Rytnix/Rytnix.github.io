@@ -312,7 +312,7 @@ text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0px 300px;
+    margin-left:  300px;
     width: 700px;
     height: 1000px;
 }
@@ -340,13 +340,13 @@ text-align: center;
      }
 
 }
-@media (min-width:700px) and (max-width:1000px) {
+@media (min-width:700px) and (max-width: 1000px) {
   
 .pdf{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 250px;
+    margin-left: 220px;
     width: 600px;
     height: 1000px; 
 } 
