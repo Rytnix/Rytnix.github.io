@@ -300,18 +300,19 @@ nav .fa{
 }
 
 
-.pdf{
+/* .pdf{
     
 text-align: center;
 
-}
+} */
 .error{
     display: none;
 }
 .pdf{
-    display: block;
+    display: flex;
     justify-content: center;
-    margin-left: 300px;
+    align-items: center;
+    margin: 0px 300px;
     width: 700px;
     height: 1000px;
 }
@@ -338,6 +339,17 @@ text-align: center;
         line-height: 22px;
      }
 
+}
+@media (min-width:700px) and (max-width:1000px) {
+  
+.pdf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 180px;
+    width: 500px;
+    height: 1000px; 
+} 
 }
 
 
