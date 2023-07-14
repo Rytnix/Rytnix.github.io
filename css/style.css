@@ -312,9 +312,12 @@ text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left:  300px;
-    width: 700px;
-    height: 1000px;
+    width: auto;
+    height: 100vh;
+}
+.pdfframe{
+   width: 50%;
+   height: 100vh;
 }
 
 @media(max-width: 700px){
